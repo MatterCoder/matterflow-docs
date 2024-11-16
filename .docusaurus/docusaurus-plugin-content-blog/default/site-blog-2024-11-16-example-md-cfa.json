@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/example-blog-post",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-11-16-example.md",
+  "source": "@site/blog/2024-11-16-example.md",
+  "title": "Example Blog Post",
+  "description": "This is the veery new blog post,",
+  "date": "2024-11-16T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Hello",
+      "permalink": "/blog/tags/hello",
+      "description": "Hello tag description"
+    },
+    {
+      "inline": false,
+      "label": "Docusaurus",
+      "permalink": "/blog/tags/docusaurus",
+      "description": "Docusaurus tag description"
+    }
+  ],
+  "readingTime": 2.045,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Ivo Brett",
+      "title": "SW Engineer & Teacher",
+      "url": "https://github.com/oidebrett",
+      "page": {
+        "permalink": "/blog/authors/oidebrett"
+      },
+      "socials": {
+        "x": "https://x.com/ivobrett",
+        "github": "https://github.com/oidebrett"
+      },
+      "imageURL": "https://github.com/oidebrett.png",
+      "key": "oidebrett"
+    }
+  ],
+  "frontMatter": {
+    "slug": "example-blog-post",
+    "title": "Example Blog Post",
+    "authors": "oidebrett",
+    "tags": [
+      "hello",
+      "docusaurus"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

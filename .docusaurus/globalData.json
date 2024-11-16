@@ -1,0 +1,83 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "home-assistant-addon/congratulations",
+              "path": "/docs/home-assistant-addon/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "home-assistant-addon/create-a-blog-post",
+              "path": "/docs/home-assistant-addon/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "home-assistant-addon/create-a-document",
+              "path": "/docs/home-assistant-addon/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "home-assistant-addon/create-a-page",
+              "path": "/docs/home-assistant-addon/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "home-assistant-addon/deploy-your-site",
+              "path": "/docs/home-assistant-addon/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "home-assistant-addon/markdown-features",
+              "path": "/docs/home-assistant-addon/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "standalone-docker-instance/manage-docs-versions",
+              "path": "/docs/standalone-docker-instance/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "standalone-docker-instance/translate-your-site",
+              "path": "/docs/standalone-docker-instance/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/home-assistant---addon",
+              "path": "/docs/category/home-assistant---addon",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/standalone-docker-instance",
+              "path": "/docs/category/standalone-docker-instance",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

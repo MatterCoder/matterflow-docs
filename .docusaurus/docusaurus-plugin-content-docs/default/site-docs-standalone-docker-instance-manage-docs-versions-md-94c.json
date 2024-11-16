@@ -1,0 +1,27 @@
+{
+  "id": "standalone-docker-instance/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/standalone-docker-instance/manage-docs-versions.md",
+  "sourceDirName": "standalone-docker-instance",
+  "slug": "/standalone-docker-instance/manage-docs-versions",
+  "permalink": "/docs/standalone-docker-instance/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/standalone-docker-instance/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Standalone Docker Instance",
+    "permalink": "/docs/category/standalone-docker-instance"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/standalone-docker-instance/translate-your-site"
+  }
+}
