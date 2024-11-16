@@ -7,7 +7,7 @@ export default {
   "title": "Matterflow",
   "tagline": "Create workflows that send Matter Data to the Cloud",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://matterflow.netlify.app",
   "baseUrl": "/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
@@ -50,7 +50,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/matterflow_social_card.svg",
     "navbar": {
       "title": "Matterflow",
       "logo": {
