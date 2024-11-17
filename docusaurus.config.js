@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Matterflow',
-  tagline: 'Create workflows that send Matter Data to the Cloud',
+  title: 'Matterflow docs',
+  tagline: 'Learn how to create workflows that send Matter Data to the Cloud',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -96,6 +96,14 @@ const config = {
           },
         ],
       },
+//      announcementBar: {
+//        id: 'support_us',
+//        content:
+//          'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+//        backgroundColor: '#fafbfc',
+//        textColor: '#091E42',
+//        isCloseable: false,
+//      },      
       footer: {
         style: 'dark',
         links: [

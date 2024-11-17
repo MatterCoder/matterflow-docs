@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Matterflow",
-  "tagline": "Create workflows that send Matter Data to the Cloud",
+  "title": "Matterflow docs",
+  "tagline": "Learn how to create workflows that send Matter Data to the Cloud",
   "favicon": "img/favicon.ico",
   "url": "https://matterflow.netlify.app",
   "baseUrl": "/",

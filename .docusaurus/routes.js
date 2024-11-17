@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', '47e'),
     exact: true
@@ -89,79 +124,97 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'fbc'),
+    component: ComponentCreator('/docs', '337'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '840'),
+        component: ComponentCreator('/docs', 'fa4'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '115'),
+            component: ComponentCreator('/docs', '1e8'),
             routes: [
               {
-                path: '/docs/category/home-assistant---addon',
-                component: ComponentCreator('/docs/category/home-assistant---addon', '059'),
+                path: '/docs/category/documentation',
+                component: ComponentCreator('/docs/category/documentation', '275'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/standalone-docker-instance',
-                component: ComponentCreator('/docs/category/standalone-docker-instance', '4e9'),
+                path: '/docs/category/getting-started',
+                component: ComponentCreator('/docs/category/getting-started', '4e8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/home-assistant-addon/congratulations',
-                component: ComponentCreator('/docs/home-assistant-addon/congratulations', '75d'),
+                path: '/docs/category/installation',
+                component: ComponentCreator('/docs/category/installation', '9d0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/home-assistant-addon/create-a-blog-post',
-                component: ComponentCreator('/docs/home-assistant-addon/create-a-blog-post', 'fa2'),
+                path: '/docs/documentation/manage-docs-versions',
+                component: ComponentCreator('/docs/documentation/manage-docs-versions', '990'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/home-assistant-addon/create-a-document',
-                component: ComponentCreator('/docs/home-assistant-addon/create-a-document', '61a'),
+                path: '/docs/documentation/translate-your-site',
+                component: ComponentCreator('/docs/documentation/translate-your-site', '84e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/home-assistant-addon/create-a-page',
-                component: ComponentCreator('/docs/home-assistant-addon/create-a-page', '248'),
+                path: '/docs/getting-started/congratulations',
+                component: ComponentCreator('/docs/getting-started/congratulations', '673'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/home-assistant-addon/deploy-your-site',
-                component: ComponentCreator('/docs/home-assistant-addon/deploy-your-site', 'c73'),
+                path: '/docs/getting-started/create-a-blog-post',
+                component: ComponentCreator('/docs/getting-started/create-a-blog-post', 'd3a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/home-assistant-addon/markdown-features',
-                component: ComponentCreator('/docs/home-assistant-addon/markdown-features', '70f'),
+                path: '/docs/getting-started/create-a-document',
+                component: ComponentCreator('/docs/getting-started/create-a-document', '660'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/create-a-page',
+                component: ComponentCreator('/docs/getting-started/create-a-page', '35b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/deploy-your-site',
+                component: ComponentCreator('/docs/getting-started/deploy-your-site', '0ae'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/markdown-features',
+                component: ComponentCreator('/docs/getting-started/markdown-features', 'd88'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/installation/manage-docs-versions',
+                component: ComponentCreator('/docs/installation/manage-docs-versions', '6d8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/installation/translate-your-site',
+                component: ComponentCreator('/docs/installation/translate-your-site', 'a3e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '61d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/standalone-docker-instance/manage-docs-versions',
-                component: ComponentCreator('/docs/standalone-docker-instance/manage-docs-versions', '475'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/standalone-docker-instance/translate-your-site',
-                component: ComponentCreator('/docs/standalone-docker-instance/translate-your-site', '5f6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

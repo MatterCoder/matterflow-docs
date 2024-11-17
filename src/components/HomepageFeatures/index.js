@@ -4,42 +4,45 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Get Data from Matter Devices',
-    Svg: require('@site/static/img/1_get_data_from_iot.svg').default,
+    title: 'Getting Started →',
+    Svg: require('@site/static/img/GettingStarted.svg').default,
+    link: '/docs/category/getting-started',
     description: (
       <>
-        Collect Data from a Matter based IoT device running on your local Matter fabric and feed this into an automated data workflow.
+        Learn how to get started with Matterflow.
       </>
     ),
   },
   {
-    title: 'Automate Data using workflows',
-    Svg: require('@site/static/img/2_model_iot_data.svg').default,
+    title: 'Installation →',
+    Svg: require('@site/static/img/Installation.svg').default,
+    link: '/docs/category/installation',
     description: (
       <>
-        Model and Transform your Matter Data to your needs using advanced and prebuilt components on a drag and drop workflow editor.
+        Learn how to install Matterflow.
       </>
     ),
   },
   {
-    title: 'Send to Cloud or AI Applications',
-    Svg: require('@site/static/img/3_send_to_cloud.svg').default,
+    title: 'Documentation →',
+    Svg: require('@site/static/img/Documentation.svg').default,
+    link: '/docs/category/documentation',
     description: (
       <>
-        Automatically Send your Data to the Cloud or AI Applications and gain further insights from your Data.
+        Learn how to configure Matterflow.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, link, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h3"><a href={link}>{title}</a></Heading>
         <p>{description}</p>
       </div>
     </div>
