@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Matterflow docs",
+  "title": "Matterflow",
   "tagline": "Learn how to create workflows that send Matter Data to the Cloud",
   "favicon": "img/favicon.ico",
   "url": "https://matterflow.netlify.app",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "mattercoder",
+  "projectName": "matterflow",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {

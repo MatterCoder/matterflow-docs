@@ -63,7 +63,7 @@ export default function HomepageFeatures() {
     </section>
     <section>
     <div className="container">
-        <iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://demo.arcade.software/uwYZqZ43CgRoaimiBnvY?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Demo video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://demo.arcade.software/9wgcynGKrxazPuXE358V?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Demo video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     </section>
     </>

@@ -22,6 +22,10 @@ function HomepageHeader() {
             to="/docs/intro">
             Matterflow Tutorial - 5min ⏱️
           </Link>
+          &nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/MatterCoder/Matterflow/stargazers">
+            <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Mattercoder/Matterflow"/>
+          </a>
         </div>
       </div>
     </header>
