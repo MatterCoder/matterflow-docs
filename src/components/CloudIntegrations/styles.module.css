@@ -1,44 +1,26 @@
-.page-header {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+.integrations {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
 }
 
+.integrationImg {
+  height: 160px;
+  width: 160px;
+}
+
+/* Center the search form */
 .search-form {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 1rem;
 }
 
-.search-form-input {
-  flex: 1;
-  padding: 0.5rem;
-  font-size: 1rem;
-}
+.borderedDiv {
+  /*border: 1px solid lightgray;*/
+  margin-top: 5px;
+  margin-bottom: 5px;
 
-.search-form-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.list-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
-}
-
-.card {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  text-align: center;
-}
-
-.box-event-integration-logo {
-  max-width: 100%;
-  height: auto;
-}
-
-.box-event-integration-name {
-  display: block;
-  margin-top: 0.5rem;
-  font-weight: bold;
 }

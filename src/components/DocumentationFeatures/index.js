@@ -54,6 +54,12 @@ export default function DocumentationFeatures() {
     <>
     <section className={styles.features}>
       <div className="container">
+      <div className="row">
+          <div className={clsx('col text--center')}>
+          <Heading as="h1">Documentation</Heading>
+          <p>Learn how to use Matterflow</p>
+          </div>
+        </div>
         <div className="row">
           {DocumentationList.map((props, idx) => (
             <Document key={idx} {...props} />
