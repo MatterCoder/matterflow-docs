@@ -3,6 +3,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import DocumentationFeatures from '@site/src/components/DocumentationFeatures';
+import CloudIntegrations from '@site/src/components/CloudIntegrations';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -41,6 +43,10 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <hr/>
+        <CloudIntegrations />
+        <hr/>
+        <DocumentationFeatures />
       </main>
     </Layout>
   );

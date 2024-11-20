@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Getting Started →',
-    Svg: require('@site/static/img/GettingStarted.svg').default,
-    link: '/docs/category/getting-started',
+    title: 'Simplified Control',
+    Svg: require('@site/static/img/dashboard.svg').default,
     description: (
       <>
-        Learn how to get started with Matterflow.
+        Easily monitor, schedule, and manage your Matter data workflows with a sleek, modern interface. Gain clear insights into task statuses and logs to keep your pipelines running smoothly.
       </>
     ),
   },
   {
-    title: 'Installation →',
-    Svg: require('@site/static/img/Installation.svg').default,
-    link: '/docs/category/installation',
+    title: 'Cloud Integrations',
+    Svg: require('@site/static/img/cloud-upload.svg').default,
     description: (
       <>
-        Learn how to install Matterflow.
+        Offers a wide range of plug-and-play operators to seamlessly execute tasks on Google Cloud Platform, Amazon Web Services, Microsoft Azure, and numerous other third-party services.
       </>
     ),
   },
   {
-    title: 'Documentation →',
-    Svg: require('@site/static/img/Documentation.svg').default,
-    link: '/docs/category/documentation',
+    title: 'Open Source',
+    Svg: require('@site/static/img/open-source-line.svg').default,
     description: (
       <>
-        Learn how to configure Matterflow.
+        You can share your improvements effortlessly by opening a PR—it's that simple! No barriers or lengthy processes. Have questions? Join the conversation on our lively Slack channel!
       </>
     ),
   },
@@ -42,7 +39,7 @@ function Feature({Svg, title, link, description}) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3"><a href={link}>{title}</a></Heading>
+        <Heading as="h1">{title}</Heading>
         <p>{description}</p>
       </div>
     </div>
@@ -60,11 +57,6 @@ export default function HomepageFeatures() {
           ))}
         </div>
       </div>
-    </section>
-    <section>
-    <div className="container">
-        <iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://demo.arcade.software/9wgcynGKrxazPuXE358V?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Demo video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
     </section>
     </>
   );
