@@ -320,7 +320,7 @@ export default {
     },
     "themes": [
       [
-        "/Users/teacher/Projects/matterflow-docs/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+        "/home/ivob/Projects/matterflow-docs/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
         {
           "hashed": true
         }

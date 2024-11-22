@@ -4,38 +4,62 @@ import styles from "./styles.module.css";
 const integrations = [
   {
     id: 1,
+    name: "Matter Server",
+    logo: "/img/matter.png",
+    link: "/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html",
+  },
+  {
+    id: 2,
     name: "CSV Output",
     logo: "/img/CsvFile.png",
     link: "/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html",
   },
   {
-    id: 2,
+    id: 3,
     name: "Json Output",
     logo: "/img/JsonFile.png",
     link: "/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html",
   },
   {
-    id: 3,
+    id: 4,
     name: "AWS S3",
     logo: "/img/SimpleStorageService.png",
     link: "/docs/apache-airflow-providers-apache-pig/stable/operators.html",
   },
   {
-    id: 4,
+    id: 5,
     name: "AWS Sitewise",
     logo: "/img/IoTSiteWise.png",
     link: "/docs/apache-airflow-providers-jira/stable/index.html",
   },
   {
-    id: 5,
+    id: 6,
     name: "Google Cloud Storage",
     logo: "/img/GoogleCloudPlatform.png",
     link: "/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html",
   },
   {
-    id: 6,
+    id: 7,
     name: "Azure Blob Storage",
     logo: "/img/AzureBlobStorage.png",
+    link: "/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html",
+  },
+  {
+    id: 8,
+    name: "MQTT",
+    logo: "/img/mqttcloud.png",
+    link: "/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html",
+  },
+  {
+    id: 9,
+    name: "Local File System",
+    logo: "/img/filesystem.png",
+    link: "/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html",
+  },  
+  {
+    id: 10,
+    name: "Add Yours ....",
+    logo: "/img/plus.png",
     link: "/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html",
   },
 ];

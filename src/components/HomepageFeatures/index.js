@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Simplified Control',
-    Svg: require('@site/static/img/dashboard.svg').default,
+    title: 'Collect Matter Data',
+    Svg: require('@site/static/img/GetMatterData.svg').default,
     description: (
       <>
-        Easily monitor, schedule, and manage your Matter data workflows with a sleek, modern interface. Gain clear insights into task statuses and logs to keep your pipelines running smoothly.
+        Automatically gather real-time data from Matter-enabled IoT devices. Send data into automated workflows.
       </>
     ),
   },
   {
-    title: 'Cloud Integrations',
-    Svg: require('@site/static/img/cloud-upload.svg').default,
+    title: 'Model & Transform Data',
+    Svg: require('@site/static/img/DataToJson.svg').default,
     description: (
       <>
-        Offers a wide range of plug-and-play operators to seamlessly execute tasks on Google Cloud Platform, Amazon Web Services, Microsoft Azure, and numerous other third-party services.
+        Easily model and convert IoT data into JSON or CSV formats. Craft the data to your specific downstream needs.
       </>
     ),
   },
   {
-    title: 'Open Source',
-    Svg: require('@site/static/img/open-source-line.svg').default,
+    title: 'Upload & Integrate Data',
+    Svg: require('@site/static/img/CloudProviders.svg').default,
     description: (
       <>
-        You can share your improvements effortlessly by opening a PR—it's that simple! No barriers or lengthy processes. Have questions? Join the conversation on our lively Slack channel!
+        Send transformed data to the cloud and integrate with AI systems. Use Matterflow to power your AI applications.
       </>
     ),
   },
