@@ -1,26 +1,66 @@
 .integrations {
-  display: flex;
-  align-items: center;
   padding: 2rem 0;
-  width: 100%;
 }
 
-.integrationImg {
-  height: 160px;
-  width: 160px;
-}
-
-/* Center the search form */
-.search-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.heading {
+  text-align: center;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
-.borderedDiv {
-  /*border: 1px solid lightgray;*/
-  margin-top: 5px;
-  margin-bottom: 5px;
+.searchForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
 
+.searchInput {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.integrationGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+  gap: 1rem; /* Space between items */
+  justify-items: center; /* Center items horizontally */
+}
+
+.integrationCard {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0; /* Faint border */
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.5rem;
+  width: 100%;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  filter: grayscale(100%); /* Greyed out by default */
+}
+
+.integrationCard:hover {
+  filter: grayscale(0); /* Highlight on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #ffffff; /* Highlight background */
+}
+
+.integrationLogo {
+  max-width: 80px; /* Smaller size for logos */
+  max-height: 80px;
+  margin: 0 auto;
+}
+
+.integrationName {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.noResults {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
 }

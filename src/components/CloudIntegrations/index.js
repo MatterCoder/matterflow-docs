@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
 
 const integrations = [
   {
@@ -40,8 +38,6 @@ const integrations = [
     logo: "/img/AzureBlobStorage.png",
     link: "/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html",
   },
-  
-  // Add more items as needed
 ];
 
 export default function CloudIntegrations() {
@@ -51,118 +47,38 @@ export default function CloudIntegrations() {
     integration.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  function Integration({logo, name, link}) {
-    return (
-      <div className={clsx('col col--4', styles.borderedDiv)}>
-        <div className="text--center">
-          <img src={logo} alt={`${name} logo`} className={styles.integrationImg} />
-        </div>
-        <div className="text--center padding-horiz--md">
-          <Heading as="h3">{name}</Heading>
-        </div>
-      </div>
-    );
-  }
-
   return (
-    <>
     <section className={styles.integrations}>
       <div className="container">
-        <div className="row">
-          <div className={clsx('col text--center')}>
-          <Heading as="h1">Integrations</Heading>
-          </div>
-        </div>
-        <div className="row">
-          <div className={clsx('col text--center')}>
-          <form className={styles.searchForm}>
-            <input
-              className={styles.searchFormInput}
-              placeholder="Search"
-              name="q"
-              type="search"
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
-            <button
-              className={styles.searchFormButton}
-              type="submit"
-              onClick={(e) => e.preventDefault()}
+        <h4 className={styles.heading}>Integrations</h4>
+        <form className={styles.searchForm}>
+          <input
+            className={styles.searchInput}
+            placeholder="Search"
+            type="text"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </form>
+        <div className={styles.integrationGrid}>
+          {filteredIntegrations.map((integration) => (
+            <a
+              key={integration.id}
+              href={integration.link}
+              className={styles.integrationCard}
             >
-              🔍
-            </button>
-          </form>
-          </div>
-        </div>
-        <div className="row">
-          &nbsp;
-        </div>
-        <div className="row">
-          {filteredIntegrations.map((props, idx) => (
-            <Integration key={idx} {...props} />
+              <img
+                src={integration.logo}
+                alt={`${integration.name} logo`}
+                className={styles.integrationLogo}
+              />
+              <span className={styles.integrationName}>{integration.name}</span>
+            </a>
           ))}
         </div>
-      </div>
-    </section>
-    </>
-  );
-
-
-  return (
-    <section className={styles.integrations}>
-      <div className="container">
-        <div className="row">
-          <h4 className={styles.pageHeader}>Integrations</h4>
-        </div>
-        <div className="row">
-          <form className={styles.searchForm}>
-            <input
-              className={styles.searchFormInput}
-              placeholder="Search"
-              name="q"
-              type="search"
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
-            <button
-              className={styles.searchFormButton}
-              type="submit"
-              onClick={(e) => e.preventDefault()}
-            >
-              🔍
-            </button>
-          </form>
-          </div>
-        <div className="row">
-
-          {/* Ensure the div wrapping the items has the correct class */}
-          <div className={styles.listItems}>
-            {filteredIntegrations.length > 0 ? (
-              filteredIntegrations.map((integration) => (
-                <a
-                  key={integration.id}
-                  href={integration.link}
-                  className={styles.integration}
-                >
-                  <div className={styles.card}>
-                    <img
-                      width={integration.width}
-                      height={integration.height}
-                      src={integration.logo}
-                      alt={`${integration.name} logo`}
-                      className={styles.boxEventIntegrationLogo}
-                    />
-                    <span className={styles.boxEventIntegrationName}>
-                      {integration.name}
-                    </span>
-                  </div>
-                </a>
-              ))
-            ) : (
-              <div>No integrations found.</div>
-            )}
-          </div>
-        </div>
+        {filteredIntegrations.length === 0 && (
+          <div className={styles.noResults}>No integrations found.</div>
+        )}
       </div>
     </section>
   );
