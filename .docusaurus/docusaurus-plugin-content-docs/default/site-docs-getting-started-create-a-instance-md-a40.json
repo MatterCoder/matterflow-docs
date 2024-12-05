@@ -1,0 +1,27 @@
+{
+  "id": "getting-started/create-a-instance",
+  "title": "Create a Model Instance",
+  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "source": "@site/docs/getting-started/create-a-instance.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/create-a-instance",
+  "permalink": "/docs/getting-started/create-a-instance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/create-a-instance.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Model",
+    "permalink": "/docs/getting-started/create-a-model"
+  },
+  "next": {
+    "title": "Start your flow",
+    "permalink": "/docs/getting-started/start-your-flow"
+  }
+}

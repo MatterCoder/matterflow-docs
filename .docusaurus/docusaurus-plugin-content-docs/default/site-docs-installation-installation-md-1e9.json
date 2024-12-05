@@ -1,0 +1,27 @@
+{
+  "id": "installation/installation",
+  "title": "Installation Guide",
+  "description": "Matterflow offers multiple installation options to fit your environment.",
+  "source": "@site/docs/installation/installation.md",
+  "sourceDirName": "installation",
+  "slug": "/installation/",
+  "permalink": "/docs/installation/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/installation/installation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/docs/category/installation"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/category/getting-started"
+  }
+}

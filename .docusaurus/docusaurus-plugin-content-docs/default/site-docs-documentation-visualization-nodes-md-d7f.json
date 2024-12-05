@@ -1,0 +1,23 @@
+{
+  "id": "documentation/visualization-nodes",
+  "title": "Visualization Nodes",
+  "description": "Display data visually, if possible.",
+  "source": "@site/docs/documentation/visualization-nodes.md",
+  "sourceDirName": "documentation",
+  "slug": "/documentation/visualization-nodes",
+  "permalink": "/docs/documentation/visualization-nodes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/documentation/visualization-nodes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manipulation Nodes",
+    "permalink": "/docs/documentation/manipulation-nodes"
+  }
+}

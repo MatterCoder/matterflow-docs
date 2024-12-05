@@ -124,15 +124,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '337'),
+    component: ComponentCreator('/docs', 'f24'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'fa4'),
+        component: ComponentCreator('/docs', '427'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '1e8'),
+            component: ComponentCreator('/docs', '85d'),
             routes: [
               {
                 path: '/docs/category/documentation',
@@ -153,14 +153,38 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/documentation/manage-docs-versions',
-                component: ComponentCreator('/docs/documentation/manage-docs-versions', '990'),
+                path: '/docs/documentation/cloud-nodes',
+                component: ComponentCreator('/docs/documentation/cloud-nodes', 'd47'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/documentation/translate-your-site',
-                component: ComponentCreator('/docs/documentation/translate-your-site', '84e'),
+                path: '/docs/documentation/connection-nodes',
+                component: ComponentCreator('/docs/documentation/connection-nodes', '6fe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/documentation/flow-control-nodes',
+                component: ComponentCreator('/docs/documentation/flow-control-nodes', '8f0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/documentation/io-nodes',
+                component: ComponentCreator('/docs/documentation/io-nodes', 'dc0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/documentation/manipulation-nodes',
+                component: ComponentCreator('/docs/documentation/manipulation-nodes', '067'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/documentation/visualization-nodes',
+                component: ComponentCreator('/docs/documentation/visualization-nodes', 'ac2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -171,44 +195,38 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/create-a-blog-post',
-                component: ComponentCreator('/docs/getting-started/create-a-blog-post', 'd3a'),
+                path: '/docs/getting-started/create-a-flow',
+                component: ComponentCreator('/docs/getting-started/create-a-flow', 'cce'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/create-a-document',
-                component: ComponentCreator('/docs/getting-started/create-a-document', '660'),
+                path: '/docs/getting-started/create-a-instance',
+                component: ComponentCreator('/docs/getting-started/create-a-instance', 'f57'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/create-a-page',
-                component: ComponentCreator('/docs/getting-started/create-a-page', '35b'),
+                path: '/docs/getting-started/create-a-model',
+                component: ComponentCreator('/docs/getting-started/create-a-model', '5de'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/deploy-your-site',
-                component: ComponentCreator('/docs/getting-started/deploy-your-site', '0ae'),
+                path: '/docs/getting-started/matterflow-features',
+                component: ComponentCreator('/docs/getting-started/matterflow-features', 'f24'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/markdown-features',
-                component: ComponentCreator('/docs/getting-started/markdown-features', 'd88'),
+                path: '/docs/getting-started/start-your-flow',
+                component: ComponentCreator('/docs/getting-started/start-your-flow', '213'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/installation/manage-docs-versions',
-                component: ComponentCreator('/docs/installation/manage-docs-versions', '6d8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/installation/translate-your-site',
-                component: ComponentCreator('/docs/installation/translate-your-site', 'a3e'),
+                path: '/docs/installation/',
+                component: ComponentCreator('/docs/installation/', '597'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

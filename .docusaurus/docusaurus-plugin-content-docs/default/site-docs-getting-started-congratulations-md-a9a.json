@@ -1,7 +1,7 @@
 {
   "id": "getting-started/congratulations",
   "title": "Congratulations!",
-  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "description": "You have just learned the basics of Matterflow and made some changes to the initial template.",
   "source": "@site/docs/getting-started/congratulations.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/congratulations",
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Deploy your site",
-    "permalink": "/docs/getting-started/deploy-your-site"
+    "title": "Matterflow Features",
+    "permalink": "/docs/getting-started/matterflow-features"
   },
   "next": {
     "title": "Documentation",

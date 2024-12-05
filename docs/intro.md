@@ -2,46 +2,43 @@
 sidebar_position: 1
 ---
 
-# Matterflow Tutorial
+# Welcome to Matterflow
 
-Let's discover **Matterflow in less than 5 minutes**.
+## Unlock the Power of Matter-Enabled IoT Devices in Minutes!
 
-## Getting Started
+Matterflow is a no-code data science tool for transforming and streaming data from Matter-enabled IoT devices to the cloud or AI applications. Whether you're a developer, data scientist, or IoT enthusiast, Matterflow simplifies the way you collect, transform, and integrate IoT data.  
 
-Get started by **creating a new site**.
+- **Seamlessly process IoT data** in real time.  
+- **Transform data** into JSON, CSV, or other formats tailored to your needs.  
+- **Integrate with cloud services** like AWS, Google Cloud, and Azure.  
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Start exploring Matterflow's potential in under 5 minutes!
 
-### What you'll need
+---
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Explore Further
 
-## Generate a new site
+### [Installation Guide](./installation/installation.md)
+Learn how to set up Matterflow effortlessly. Choose from multiple installation options, including Home Assistant add-ons, Docker containers, or a development environment.
 
-Generate a new Docusaurus site using the **classic template**.
+### [Getting Started](./getting-started/create-a-flow.md)
+Dive into your first Matterflow workflow! This guide walks you through connecting your IoT devices, transforming data, and integrating with cloud services.
 
-The classic template will automatically be added to your project after you run the command:
+### [Full Documentation](./documentation/connection-nodes.md)
+Discover all the features and integrations Matterflow has to offer. Explore detailed guides, API references, and advanced configurations.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+---
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Why Matterflow?
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- **Simplify IoT Data Workflows**: Streamline the collection and processing of Matter-enabled IoT data.  
+- **Flexibility**: Deploy as a Home Assistant add-on or as a standalone Docker application.  
+- **Integrations Galore**: Support for AWS S3, Azure Blob Storage, MQTT, and more.  
 
-## Start your site
+### Get Started Today!
 
-Run the development server:
+Unleash the full potential of your smart devices and bring your IoT projects to life. Install Matterflow and create your first workflow in minutes.
 
-```bash
-cd my-website
-npm run start
-```
+[Get Started Now](./installation/installation.md)
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

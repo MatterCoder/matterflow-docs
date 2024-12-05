@@ -4,9 +4,9 @@ sidebar_position: 6
 
 # Congratulations!
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+You have just learned the **basics of Matterflow** and made some changes to the **initial template**.
 
-Docusaurus has **much more to offer**!
+Matterflow has **much more to offer**!
 
 Have **5 more minutes**? Take a look at **[versioning](../installation/manage-docs-versions.md)** and **[i18n](../installation/translate-your-site.md)**.
 

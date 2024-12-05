@@ -71,6 +71,8 @@ $ npm run start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
+The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+
 ### Build
 
 ```

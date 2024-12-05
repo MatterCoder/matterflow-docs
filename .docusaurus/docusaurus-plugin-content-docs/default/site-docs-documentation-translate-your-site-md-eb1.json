@@ -18,10 +18,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Manage Docs Versions",
-    "permalink": "/docs/documentation/manage-docs-versions"
-  },
-  "next": {
-    "title": "Installation",
-    "permalink": "/docs/category/installation"
+    "permalink": "/docs/documentation/io-nodes"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "documentation/manipulation-nodes",
+  "title": "Manipulation Nodes",
+  "description": "Transform and modify data.",
+  "source": "@site/docs/documentation/manipulation-nodes.md",
+  "sourceDirName": "documentation",
+  "slug": "/documentation/manipulation-nodes",
+  "permalink": "/docs/documentation/manipulation-nodes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/documentation/manipulation-nodes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "IO Nodes",
+    "permalink": "/docs/documentation/io-nodes"
+  },
+  "next": {
+    "title": "Visualization Nodes",
+    "permalink": "/docs/documentation/visualization-nodes"
+  }
+}

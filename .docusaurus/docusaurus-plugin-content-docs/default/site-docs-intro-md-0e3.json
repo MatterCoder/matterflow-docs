@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Matterflow Tutorial",
-  "description": "Let's discover Matterflow in less than 5 minutes.",
+  "title": "Welcome to Matterflow",
+  "description": "Unlock the Power of Matter-Enabled IoT Devices in Minutes!",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Getting Started",
-    "permalink": "/docs/category/getting-started"
+    "title": "Installation",
+    "permalink": "/docs/category/installation"
   }
 }

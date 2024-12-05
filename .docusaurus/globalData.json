@@ -11,13 +11,33 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "documentation/manage-docs-versions",
-              "path": "/docs/documentation/manage-docs-versions",
+              "id": "documentation/cloud-nodes",
+              "path": "/docs/documentation/cloud-nodes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "documentation/translate-your-site",
-              "path": "/docs/documentation/translate-your-site",
+              "id": "documentation/connection-nodes",
+              "path": "/docs/documentation/connection-nodes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "documentation/flow-control-nodes",
+              "path": "/docs/documentation/flow-control-nodes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "documentation/io-nodes",
+              "path": "/docs/documentation/io-nodes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "documentation/manipulation-nodes",
+              "path": "/docs/documentation/manipulation-nodes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "documentation/visualization-nodes",
+              "path": "/docs/documentation/visualization-nodes",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -26,43 +46,43 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "getting-started/create-a-blog-post",
-              "path": "/docs/getting-started/create-a-blog-post",
+              "id": "getting-started/create-a-flow",
+              "path": "/docs/getting-started/create-a-flow",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "getting-started/create-a-document",
-              "path": "/docs/getting-started/create-a-document",
+              "id": "getting-started/create-a-instance",
+              "path": "/docs/getting-started/create-a-instance",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "getting-started/create-a-page",
-              "path": "/docs/getting-started/create-a-page",
+              "id": "getting-started/create-a-model",
+              "path": "/docs/getting-started/create-a-model",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "getting-started/deploy-your-site",
-              "path": "/docs/getting-started/deploy-your-site",
+              "id": "getting-started/matterflow-features",
+              "path": "/docs/getting-started/matterflow-features",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "getting-started/markdown-features",
-              "path": "/docs/getting-started/markdown-features",
+              "id": "getting-started/start-your-flow",
+              "path": "/docs/getting-started/start-your-flow",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "installation/manage-docs-versions",
-              "path": "/docs/installation/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "installation/translate-your-site",
-              "path": "/docs/installation/translate-your-site",
+              "id": "installation/installation",
+              "path": "/docs/installation/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/installation",
+              "path": "/docs/category/installation",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -73,11 +93,6 @@
             {
               "id": "/category/documentation",
               "path": "/docs/category/documentation",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/installation",
-              "path": "/docs/category/installation",
               "sidebar": "tutorialSidebar"
             }
           ],

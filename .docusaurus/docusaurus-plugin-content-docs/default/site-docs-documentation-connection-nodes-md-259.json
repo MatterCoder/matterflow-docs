@@ -1,0 +1,27 @@
+{
+  "id": "documentation/connection-nodes",
+  "title": "Cloud Nodes",
+  "description": "Transfer data to cloud platforms such as AWS, Azure, and Google Cloud.",
+  "source": "@site/docs/documentation/connection-nodes.md",
+  "sourceDirName": "documentation",
+  "slug": "/documentation/connection-nodes",
+  "permalink": "/docs/documentation/connection-nodes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/documentation/connection-nodes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cloud Nodes",
+    "permalink": "/docs/documentation/cloud-nodes"
+  },
+  "next": {
+    "title": "Flow Control Nodes",
+    "permalink": "/docs/documentation/flow-control-nodes"
+  }
+}

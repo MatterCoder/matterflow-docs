@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Create a Document",
-    "permalink": "/docs/getting-started/create-a-document"
+    "title": "Create a Model",
+    "permalink": "/docs/getting-started/create-a-model"
   },
   "next": {
     "title": "Markdown Features",
