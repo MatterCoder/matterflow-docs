@@ -9,7 +9,7 @@ nodes, you can write workflows tailored to your specific needs and packages
 needed for your specific field.
 
 Custom nodes were designed to be easily written and greatly expandable. You
-don't need to worry about React, Django, or any specifics of PyWorkflow to get
+don't need to worry about React, Django, or any specifics of Matterflow to get
 started.
 
 
