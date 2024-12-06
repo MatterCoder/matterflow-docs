@@ -24,7 +24,7 @@
 
 # Matterflow Documentation
 
-Welcome to the **Matterflow Documentation Repository**! This project supports the **Matterflow Project**, which streamlines the processing, transformation, and streaming of data from **Matter-enabled IoT devices**. The Matterflow project also supports a standalone Docker based deployment for non Homeassistant use-cases. With Matterflow, you can unlock the full potential of your smart home setup, integrating seamlessly with cloud and AI applications. This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the **Matterflow Documentation Repository**! This project supports the **Matterflow Project**, which streamlines the processing, transformation, and streaming of data from **Matter-enabled IoT devices**. The Matterflow project also supports a standalone Docker based deployment for non Homeassistant use-cases. With Matterflow, you can unlock the full potential of your smart home setup, integrating seamlessly with cloud and AI applications. This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator. We host this website on Netlify at this URL [Matterflow.cloud](https://www.matterflow.cloud/).
 
 ## Key Features
 
