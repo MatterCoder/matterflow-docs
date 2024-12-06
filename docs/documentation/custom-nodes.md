@@ -49,9 +49,9 @@ Let's break it down to see how you can take this example and make your own
 custom node!
 
 ## Imports
-All custom nodes require a few classes defined by the PyWorkflow package. In the
+All custom nodes require a few classes defined by the matterflow package. In the
 example above, we import `Node`, `NodeException`, and all (`*`) classes from
-the `parameters.py` file. If you take a look at `pyworkflow/node.py`, you'll see
+the `parameters.py` file. If you take a look at `matterflow/node.py`, you'll see
 there's several subclasses defined in addition to `Node`. These classes are
 described in their docstring comments and include:
 - FlowNode: for flow variable parameter overrides
