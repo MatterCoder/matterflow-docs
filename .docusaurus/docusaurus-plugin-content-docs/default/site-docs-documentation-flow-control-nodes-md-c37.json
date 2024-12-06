@@ -18,7 +18,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Cloud Nodes",
-    "permalink": "/docs/documentation/connection-nodes"
+    "permalink": "/docs/documentation/cloud-nodes"
   },
   "next": {
     "title": "IO Nodes",

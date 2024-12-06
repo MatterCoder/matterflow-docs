@@ -1,7 +1,7 @@
 {
   "id": "intro",
   "title": "Welcome to Matterflow",
-  "description": "Unlock the Power of Matter-Enabled IoT Devices in Minutes!",
+  "description": "Want to get data from Matter-Enabled IoT Devices?",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

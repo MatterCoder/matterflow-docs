@@ -1,7 +1,7 @@
 {
   "id": "getting-started/create-a-model",
   "title": "Create a Model",
-  "description": "Documents are groups of pages connected through:",
+  "description": "The Model editor tool is designed to help you create and manage models for data mapping from Matter enabled devices.",
   "source": "@site/docs/getting-started/create-a-model.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/create-a-model",
@@ -21,7 +21,7 @@
     "permalink": "/docs/getting-started/create-a-flow"
   },
   "next": {
-    "title": "Create a Model Instance",
-    "permalink": "/docs/getting-started/create-a-instance"
+    "title": "Start your flow",
+    "permalink": "/docs/getting-started/start-your-flow"
   }
 }

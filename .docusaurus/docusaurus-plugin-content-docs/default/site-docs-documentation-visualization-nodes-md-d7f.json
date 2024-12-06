@@ -19,5 +19,9 @@
   "previous": {
     "title": "Manipulation Nodes",
     "permalink": "/docs/documentation/manipulation-nodes"
+  },
+  "next": {
+    "title": "Custom Nodes",
+    "permalink": "/docs/documentation/custom-nodes"
   }
 }

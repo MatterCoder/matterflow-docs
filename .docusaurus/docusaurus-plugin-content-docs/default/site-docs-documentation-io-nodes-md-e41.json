@@ -1,7 +1,7 @@
 {
   "id": "documentation/io-nodes",
   "title": "IO Nodes",
-  "description": "Read from or write to local files (JSON, CSV, etc.).",
+  "description": "This document provides detailed information about the available I/O Nodes. Each node is described with its functionality, options, and exceptions.",
   "source": "@site/docs/documentation/io-nodes.md",
   "sourceDirName": "documentation",
   "slug": "/documentation/io-nodes",

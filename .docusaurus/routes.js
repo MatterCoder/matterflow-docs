@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', '47e'),
     exact: true
@@ -124,15 +89,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f24'),
+    component: ComponentCreator('/docs', '8d6'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '427'),
+        component: ComponentCreator('/docs', 'cac'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '85d'),
+            component: ComponentCreator('/docs', 'b48'),
             routes: [
               {
                 path: '/docs/category/documentation',
@@ -161,6 +126,12 @@ export default [
               {
                 path: '/docs/documentation/connection-nodes',
                 component: ComponentCreator('/docs/documentation/connection-nodes', '6fe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/documentation/custom-nodes',
+                component: ComponentCreator('/docs/documentation/custom-nodes', '6cb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -195,20 +166,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/getting-started/create-a-custom-node',
+                component: ComponentCreator('/docs/getting-started/create-a-custom-node', '2b7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/getting-started/create-a-flow',
                 component: ComponentCreator('/docs/getting-started/create-a-flow', 'cce'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/create-a-instance',
-                component: ComponentCreator('/docs/getting-started/create-a-instance', 'f57'),
+                path: '/docs/getting-started/create-a-model',
+                component: ComponentCreator('/docs/getting-started/create-a-model', '5de'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/create-a-model',
-                component: ComponentCreator('/docs/getting-started/create-a-model', '5de'),
+                path: '/docs/getting-started/export-import-flows',
+                component: ComponentCreator('/docs/getting-started/export-import-flows', '5f7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

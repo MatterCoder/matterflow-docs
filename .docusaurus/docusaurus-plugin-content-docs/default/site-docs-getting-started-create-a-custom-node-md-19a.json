@@ -1,0 +1,27 @@
+{
+  "id": "getting-started/create-a-custom-node",
+  "title": "Create a Custom Node",
+  "description": "One very powerful feature of Matterflow is its support for custom nodes. New data",
+  "source": "@site/docs/getting-started/create-a-custom-node.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/create-a-custom-node",
+  "permalink": "/docs/getting-started/create-a-custom-node",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/create-a-custom-node.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Export and Import Flows",
+    "permalink": "/docs/getting-started/export-import-flows"
+  },
+  "next": {
+    "title": "Matterflow Features",
+    "permalink": "/docs/getting-started/matterflow-features"
+  }
+}

@@ -1,31 +1,15 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Start your flow
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+Once you have created you flow to process data you will want to run your flow as a process. Matterflow uses Supervisord to manage processes in the background. Supervisord is responsible for starting flow processes, responding to start/stop commands from the user interface, restarting crashed or exited subprocesseses.
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+## Start / Stop flow
 
-## Build your site
+When you have tested your flow and after you have saved it, you can click the "Start" button to start your flow. Using the Manage Processes button you can see how your flow process is running. You can see the logging from stdout or errors from stderr. If you flow process start successfully, you will see the **traffic lights** beside your flow name turning to Green
 
-Build your site **for production**:
+You can stop your flow process by clicking the "Stop" button or click on the traffic lights. The process will be stopped but not deleted. 
 
-```bash
-npm run build
-```
-
-The static files are generated in the `build` folder.
-
-## Deploy your site
-
-Test your production build locally:
-
-```bash
-npm run serve
-```
-
-The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
-
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+Please note, the process may be restarted automatically when other flows processes are created.

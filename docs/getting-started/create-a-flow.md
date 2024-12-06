@@ -62,6 +62,7 @@ Explore the available nodes for building your flows. Each category has a dedicat
 - [**I/O Nodes**](../documentation/io-nodes.md): Read from or write to local files (JSON, CSV, etc.).  
 - [**Manipulation Nodes**](../documentation/manipulation-nodes.md): Transform and modify data.  
 - [**Visualization Nodes**](../documentation/visualization-nodes.md): Display data visually, if possible.  
+- [**Custom Nodes**](../documentation/custom-nodes.md): Add your own functionality with Custom Nodes.  
 
 ---
 

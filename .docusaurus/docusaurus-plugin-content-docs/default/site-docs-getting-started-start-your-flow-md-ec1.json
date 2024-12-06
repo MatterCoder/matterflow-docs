@@ -1,7 +1,7 @@
 {
   "id": "getting-started/start-your-flow",
   "title": "Start your flow",
-  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "description": "Once you have created you flow to process data you will want to run your flow as a process. Matterflow uses Supervisord to manage processes in the background. Supervisord is responsible for starting flow processes, responding to start/stop commands from the user interface, restarting crashed or exited subprocesseses.",
   "source": "@site/docs/getting-started/start-your-flow.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/start-your-flow",
@@ -11,17 +11,17 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/start-your-flow.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Create a Model Instance",
-    "permalink": "/docs/getting-started/create-a-instance"
+    "title": "Create a Model",
+    "permalink": "/docs/getting-started/create-a-model"
   },
   "next": {
-    "title": "Matterflow Features",
-    "permalink": "/docs/getting-started/matterflow-features"
+    "title": "Export and Import Flows",
+    "permalink": "/docs/getting-started/export-import-flows"
   }
 }

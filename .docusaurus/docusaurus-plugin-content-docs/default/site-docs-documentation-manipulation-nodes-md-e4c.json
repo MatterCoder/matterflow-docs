@@ -1,7 +1,7 @@
 {
   "id": "documentation/manipulation-nodes",
   "title": "Manipulation Nodes",
-  "description": "Transform and modify data.",
+  "description": "Manipulation Node classes implement processing for JSON-like data. These nodes operate on JSON input streams, transforming, filtering, or aggregating data.",
   "source": "@site/docs/documentation/manipulation-nodes.md",
   "sourceDirName": "documentation",
   "slug": "/documentation/manipulation-nodes",

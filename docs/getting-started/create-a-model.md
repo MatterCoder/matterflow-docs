@@ -4,54 +4,53 @@ sidebar_position: 2
 
 # Create a Model
 
-Documents are **groups of pages** connected through:
+The Model editor tool is designed to help you create and manage models for data mapping from Matter enabled devices.
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+## Creating a New Model
+To create a new model, follow these steps:
 
-## Create your first Doc
+- Navigate to the main flow dashboard.
+- Click on the "New Model" button. A model with a ramdom name will be created.
+- Click on the model name.
 
-Create a Markdown file at `docs/hello.md`:
+### Renaming a Model
+To rename a model, follow these steps:
 
-```md title="docs/hello.md"
-# Hello
+Select the model you want to rename from the list of available models.
+- Click on the "Rename" button.
+- Enter the new name for your model in the provided input field.
+- Click on the "Save" button.
+- Your model will be renamed to the new name you provided.
 
-This is my **first Docusaurus document**!
-```
+### Defining your Model
+To define a model using the Model Editor component, follow these steps:
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+- Open the Model Editor by clicking on your chosen model name.
+- Click on the "+" button to create a new Data field.
+- You can make data fields of type Number, String, Object, Boolean.
+- If you want a nested object then click on th "+" button under an Object 
+- Click on the "Save" button to save your model.
+- Your model will be created and saved, and you can use it to map data from Matter enabled devices into the desired data structures.
 
-## Configure the Sidebar
+That's it! You have successfully created a new model using the Model Editor. Now lets get map the Model to actual data.
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+## Create an Instance
+Instances are created from the incoming data according to the Data Model specified in the Model.
 
-Add metadata to customize the sidebar label and position:
+To create a new instance, follow these steps:
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
+- Navigate to the main flow dashboard.
+- Click on the "New Instance" button. An instance with a ramdom name will be created.
+- Click on the instance name.
 
-# Hello
+### Mapping your instance
+To map your instance to the model using the Instance Editor component, follow these steps:
 
-This is my **first Docusaurus document**!
-```
+- Open the Instance Editor by clicking on your chosen instance name.
+- Select the Model from the drop-down.
+- Use the JSON viewer to load data from Nodes (note: your flow must be saved first)
+- Use JMESpath expression to isolate the required information from the node data
+- Drag the JMESpath expression using the "+" icon to your Model field.
+- Click on the "Save" button to save your instance.
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
+That's it! You have successfully created a new instance using the Instance Editor. Happy mapping!

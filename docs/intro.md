@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Welcome to Matterflow
 
-## Unlock the Power of Matter-Enabled IoT Devices in Minutes!
+### Want to get data from Matter-Enabled IoT Devices?
 
 Matterflow is a no-code data science tool for transforming and streaming data from Matter-enabled IoT devices to the cloud or AI applications. Whether you're a developer, data scientist, or IoT enthusiast, Matterflow simplifies the way you collect, transform, and integrate IoT data.  
 
@@ -12,11 +12,13 @@ Matterflow is a no-code data science tool for transforming and streaming data fr
 - **Transform data** into JSON, CSV, or other formats tailored to your needs.  
 - **Integrate with cloud services** like AWS, Google Cloud, and Azure.  
 
-Start exploring Matterflow's potential in under 5 minutes!
+### User Interface
+
+![Image](./documentation/img/matterflowexample.png)
 
 ---
 
-## Explore Further
+## Start exploring Matterflow's potential in under 5 minutes!
 
 ### [Installation Guide](./installation/installation.md)
 Learn how to set up Matterflow effortlessly. Choose from multiple installation options, including Home Assistant add-ons, Docker containers, or a development environment.

@@ -21,6 +21,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "documentation/custom-nodes",
+              "path": "/docs/documentation/custom-nodes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "documentation/flow-control-nodes",
               "path": "/docs/documentation/flow-control-nodes",
               "sidebar": "tutorialSidebar"
@@ -46,18 +51,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "getting-started/create-a-custom-node",
+              "path": "/docs/getting-started/create-a-custom-node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "getting-started/create-a-flow",
               "path": "/docs/getting-started/create-a-flow",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "getting-started/create-a-instance",
-              "path": "/docs/getting-started/create-a-instance",
+              "id": "getting-started/create-a-model",
+              "path": "/docs/getting-started/create-a-model",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "getting-started/create-a-model",
-              "path": "/docs/getting-started/create-a-model",
+              "id": "getting-started/export-import-flows",
+              "path": "/docs/getting-started/export-import-flows",
               "sidebar": "tutorialSidebar"
             },
             {

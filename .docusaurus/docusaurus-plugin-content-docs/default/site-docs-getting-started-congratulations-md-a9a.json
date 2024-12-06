@@ -1,7 +1,7 @@
 {
   "id": "getting-started/congratulations",
   "title": "Congratulations!",
-  "description": "You have just learned the basics of Matterflow and made some changes to the initial template.",
+  "description": "You have just learned the basics of Matterflow and how to create automated data flows.",
   "source": "@site/docs/getting-started/congratulations.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/congratulations",
@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/congratulations.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 7,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar_position": 7
   },
   "sidebar": "tutorialSidebar",
   "previous": {

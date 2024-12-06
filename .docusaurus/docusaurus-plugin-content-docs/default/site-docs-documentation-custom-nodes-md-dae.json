@@ -1,0 +1,23 @@
+{
+  "id": "documentation/custom-nodes",
+  "title": "Custom Nodes",
+  "description": "Custom nodes were designed to be easily written and greatly expandable. You",
+  "source": "@site/docs/documentation/custom-nodes.md",
+  "sourceDirName": "documentation",
+  "slug": "/documentation/custom-nodes",
+  "permalink": "/docs/documentation/custom-nodes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/documentation/custom-nodes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Visualization Nodes",
+    "permalink": "/docs/documentation/visualization-nodes"
+  }
+}
