@@ -19,7 +19,7 @@
         <img src="https://img.shields.io/badge/Docusaurus-3ECC5F?logo=docusaurus&logoColor=fff"/>    
         </a>           
     </div>
-    <h1>Documentation site: Matterflow</h1>
+    <h1>Send Matter Data to the Cloud and AI applications</h1>
 </div>
 
 # Matterflow Documentation
