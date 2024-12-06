@@ -24,7 +24,7 @@
 
 # Matterflow Documentation
 
-Welcome to the **Matterflow Documentation Repository**! This project supports the **Matterflow Home Assistant add-on**, which streamlines the processing, transformation, and streaming of data from **Matter-enabled IoT devices**. The project also supports standalone Docker based deployment for non Homeassistant use-cases. With Matterflow, you can unlock the full potential of your smart home setup, integrating seamlessly with cloud and AI applications. This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the **Matterflow Documentation Repository**! This project supports the **Matterflow Project**, which streamlines the processing, transformation, and streaming of data from **Matter-enabled IoT devices**. The Matterflow project also supports a standalone Docker based deployment for non Homeassistant use-cases. With Matterflow, you can unlock the full potential of your smart home setup, integrating seamlessly with cloud and AI applications. This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ## Key Features
 
@@ -32,7 +32,10 @@ Welcome to the **Matterflow Documentation Repository**! This project supports th
 - **Data Transformation**: Customize rules for data modeling and export.
 - **AI-Ready Integration**: Seamlessly share data with machine learning applications.
 
-For detailed setup and tutorials, visit the [main documentation](https://matterflow.cloud/docs/intro).
+To view the **Matterflow** project page, visit the [main github repo](https://github.com/MatterCoder/matterflow).
+
+
+For detailed setup and tutorials, visit the [Getting Started documentation](https://matterflow.cloud/docs/intro).
 
 ---
 
