@@ -19,8 +19,8 @@ other nodes in the workflow.
 # Getting started
 A custom node will look something like the following.
 ```python
-from pyworkflow.node import Node, NodeException
-from pyworkflow.parameters import *
+from matterflow.node import Node, NodeException
+from matterflow.parameters import *
 
 
 class MyCustomNode(Node):
