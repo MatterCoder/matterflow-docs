@@ -1,10 +1,10 @@
 {
-  "permalink": "/blog/example-blog-post",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-11-16-example.md",
-  "source": "@site/blog/2024-11-16-example.md",
-  "title": "Example Blog Post",
-  "description": "This is the veery new blog post,",
-  "date": "2024-11-16T00:00:00.000Z",
+  "permalink": "/blog/welcomee-blog-post",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-12-06-Welcome.md",
+  "source": "@site/blog/2024-12-06-Welcome.md",
+  "title": "Welcome Blog Post",
+  "description": "This is our first and newest blog post, welcoming everyone to this website. Keep an eye out here for more updates.",
+  "date": "2024-12-06T00:00:00.000Z",
   "tags": [
     {
       "inline": false,
@@ -19,7 +19,7 @@
       "description": "Docusaurus tag description"
     }
   ],
-  "readingTime": 2.045,
+  "readingTime": 2.12,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -38,8 +38,8 @@
     }
   ],
   "frontMatter": {
-    "slug": "example-blog-post",
-    "title": "Example Blog Post",
+    "slug": "welcomee-blog-post",
+    "title": "Welcome Blog Post",
     "authors": "oidebrett",
     "tags": [
       "hello",
