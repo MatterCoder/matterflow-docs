@@ -19,7 +19,7 @@
         <img src="https://img.shields.io/badge/Docusaurus-3ECC5F?logo=docusaurus&logoColor=fff"/>    
         </a>           
     </div>
-    <h1>Home Assistant Add-on: Matter Data Pipeline</h1>
+    <h1>Documentation site: Matterflow</h1>
 </div>
 
 # Matterflow Documentation
